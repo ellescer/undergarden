@@ -1,0 +1,83 @@
+@font-face {
+  font-family: SebastianGothicNBP;
+  src: url(fonts/SG_0.ttf);
+}
+
+a:link{
+  color: #efefef;
+}
+
+a:visited{
+  color: #efefef;
+}
+
+ul:hover, a:hover, li:hover{
+  color: #b57cff;
+}
+
+ul > li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+#hearthList a, ul{
+  font-family: SebastianGothicNBP;
+  font-size: 12px;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 30px;
+  text-align: center;
+}
+
+body{
+  background-image: url(images/scan.png);
+  background-color: #2d2d2d;
+  color: #efefef;
+}
+
+pre{
+  text-align: center;
+  font-size: .7vw;
+}
+
+h3{
+  font-family: SebastianGothicNBP;
+  font-size: 15px;
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerbadge{
+  text-align: center;
+}
+
+.badge{
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.topM{
+  width: 50%;
+  margin-bottom: -5px;
+}
+
+.bottomM{
+  width: 50%;
+  margin-top: -5px;
+}
+
+.footerM{
+  margin-top: 200px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
+  height: 6px;
+  border: 0;
+}
