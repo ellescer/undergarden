@@ -38,12 +38,9 @@ body{
 pre{
   text-align: center;
   font-size: .7vw;
-}
-
-h3{
-  font-family: SebastianGothicNBP;
-  font-size: 15px;
-  text-align: center;
+  padding-top: 60px;
+  text-shadow: 1px 1px 7px #777777;
+  color: #ffffff
 }
 
 img{
@@ -55,7 +52,7 @@ img{
 }
 
 .footerbadge{
-  text-align: center;
+  text-align: left;
 }
 
 .badge{
@@ -66,18 +63,26 @@ img{
 }
 
 .topM{
-  width: 50%;
+  width: 55%;
   margin-bottom: -5px;
+  background: -moz-linear-gradient(to right, #214dff, #ad3aff, #214dff);
+  height: 1px;
+  border: none;
 }
 
 .bottomM{
-  width: 50%;
+  width: 55%;
   margin-top: -5px;
+  background: -moz-linear-gradient(to right, #214dff, #ad3aff, #214dff);
+  height: 1px;
+  border: none;
 }
 
 .footerM{
-  margin-top: 200px;
+  margin-top: 100px;
   background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
   height: 6px;
   border: 0;
+  margin-left: -5px;
+  margin-right: -5px;
 }
