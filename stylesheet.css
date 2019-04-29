@@ -15,17 +15,26 @@ ul:hover, a:hover, li:hover{
   color: #b57cff;
 }
 
-ul > li{
-  display: inline-block;
-  padding-right: 10px;
-}
-
-#hearthList a, ul{
+ul.hearthList li{
   font-family: SebastianGothicNBP;
   font-size: 12px;
   text-decoration: none;
   list-style-type: none;
   line-height: 30px;
+  display: inline;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.hearthList{
+  padding-left: 0px;
+}
+
+ul.hearthList a{
+  text-decoration: none;
+}
+
+.navlist{
   text-align: center;
 }
 
@@ -33,6 +42,7 @@ body{
   background-image: url(images/scan.png);
   background-color: #2d2d2d;
   color: #efefef;
+  margin-bottom: 0;
 }
 
 pre{
@@ -43,6 +53,41 @@ pre{
   color: #ffffff
 }
 
+.sidebar{
+  height: 100%;
+  font-size: 12px;
+  font-family: SebastianGothicNBP;
+  background-color: #050505;
+  margin-left: -8px;
+  top: 0;
+  overflow: hidden;
+  width: 120px;
+  position: fixed;
+
+
+}
+
+.mainc{
+  margin-left: 120px;
+
+}
+
+.sidebar a{
+  display: block;
+  text-decoration: none;
+  padding-left: 2px;
+
+}
+
+.sidehr{
+  margin-bottom: 5px;
+  margin-left: -7px;
+  height: 3px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
+  border: none;
+
+}
+
 img{
   max-width: 100%;
   height: auto;
@@ -51,15 +96,12 @@ img{
   margin-right: auto;
 }
 
-.footerbadge{
-  text-align: left;
-}
-
 .badge{
   width: auto;
   height: auto;
   display: inline-block;
-  padding-top: 10px;
+  padding-top: 1px;
+  margin-left: 5px;
 }
 
 .topM{
@@ -70,19 +112,30 @@ img{
   border: none;
 }
 
-.bottomM{
-  width: 55%;
-  margin-top: -5px;
-  background: -moz-linear-gradient(to right, #214dff, #ad3aff, #214dff);
-  height: 1px;
-  border: none;
-}
-
 .footerM{
   margin-top: 100px;
   background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
   height: 6px;
   border: 0;
-  margin-left: -5px;
+  margin-left: -6px;
   margin-right: -5px;
+}
+
+.sidebarMisc{
+  padding-left: 10px;
+}
+
+p.sidebarTitles{
+  padding-left: 2px;
+  margin-bottom: 6px;
+}
+
+ul.sidelist li{
+  height: 80px;
+  margin-left: 13px;
+  margin-right: 4px;
+}
+
+ul.sidelist{
+  padding-left: 0;
 }
