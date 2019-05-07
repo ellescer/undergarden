@@ -83,7 +83,7 @@ pre{
   margin-bottom: 5px;
   margin-left: -7px;
   height: 3px;
-  background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
+  background: url(images/gay.png);
   border: none;
 
 }
@@ -114,11 +114,12 @@ img{
 
 .footerM{
   margin-top: 100px;
-  background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
+  background: url(images/gay.png);
   height: 6px;
   border: 0;
   margin-left: -6px;
   margin-right: -5px;
+
 }
 
 .sidebarMisc{
@@ -138,4 +139,67 @@ ul.sidelist li{
 
 ul.sidelist{
   padding-left: 0;
+}
+
+
+/*Main SubBoard CSS*/
+
+
+.boardmain{
+  margin-left: 120px;
+}
+
+.form{
+  font-family: SebastianGothicNBP;
+  font-size: 12px;
+}
+
+.firstfield label{
+  background-color: #206be5;
+  padding: 5px 10px 5px 2px;
+  border-radius: 5px;
+}
+
+.firstfield{
+  margin-bottom: 5px;
+}
+
+.secondfield label{
+  background-color: #206be5;
+  padding: 5px 22px 5px 2px;
+  border-radius: 5px;
+}
+.secondfield{
+  margin-bottom: 5px;
+}
+
+.thirdfield label{
+  background-color: #206be5;
+  padding: 5px 25px 5px 2px;
+  border-radius: 5px;
+}
+
+.thirdfield{
+  margin-bottom: 5px;
+}
+
+.commentfield label{
+  background-color: #206be5;
+  padding: 5px 5px 5px 2px;
+  border-radius: 5px;
+}
+
+.commentfield{
+  display: inline-grid;
+  grid-template-columns: 62px 257px;
+  grid-column-gap: 10px;
+}
+
+.reply{
+  text-align: center;
+}
+
+input{
+  background-color: black;
+  color: white;
 }
