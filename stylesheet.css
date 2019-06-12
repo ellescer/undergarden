@@ -48,8 +48,9 @@ body{
 pre{
   text-align: center;
   font-size: .7vw;
-  padding-top: 60px;
-  text-shadow: 1px 1px 7px #777777;
+  padding-top: 7px;
+  margin-top: 60px;
+  /*text-shadow: 1px 1px 7px #777777;*/
   color: #ffffff
 }
 
@@ -113,7 +114,7 @@ img{
 }
 
 .footerM{
-  margin-top: 100px;
+  margin-top: 50px;
   background: url(images/gay.png);
   height: 6px;
   border: 0;
