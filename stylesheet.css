@@ -33,6 +33,11 @@ ul.hearthList li{
 
 ul.hearthList a{
   text-decoration: none;
+  border-style: solid;
+  border-width: thin;
+  border-top: none;
+  border-bottom: none;
+
 }
 
 .navlist{
@@ -68,7 +73,7 @@ pre{
   overflow: hidden;
   width: 120px;
   position: fixed;
-
+  border-right-style: ridge;
 
 }
 
