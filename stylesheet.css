@@ -4,15 +4,16 @@
 }
 
 a:link{
-  color: #efefef;
+  color: #ffffff;
 }
 
 a:visited{
-  color: #efefef;
+  color: #ffffff;
 }
 
 ul:hover, a:hover, li:hover{
-  color: #b57cff;
+  /*color: #b57cff;*/
+  color: #fcb244;
 }
 
 ul.hearthList li{
@@ -39,8 +40,10 @@ ul.hearthList a{
 }
 
 body{
-  background-image: url(images/scan.png);
-  background-color: #2d2d2d;
+  /*background-image: url(images/scan.png);*/
+  /*background-color: #2d2d2d;*/
+  background-image: url(images/diagonales-decalees.png);
+  background-color: #89ace5;
   color: #efefef;
   margin-bottom: 0;
 }
@@ -102,8 +105,17 @@ img{
   width: auto;
   height: auto;
   display: inline-block;
-  padding-top: 1px;
+  padding-top: 3px;
   margin-left: 5px;
+  /*border-style: solid;
+  border-width: thin;*/
+}
+
+.badgeBorder{
+  border-style: solid;
+  border-width: thin;
+  width: 180px;
+
 }
 
 .topM{
@@ -116,12 +128,11 @@ img{
 
 .footerM{
   margin-top: 50px;
-  background: url(images/gay.png);
+  background: url(images/gay2.png);
   height: 6px;
   border: 0;
   margin-left: -6px;
   margin-right: -5px;
-
 }
 
 .sidebarMisc{
