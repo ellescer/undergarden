@@ -11,9 +11,8 @@ a:visited{
   color: #ffffff;
 }
 
-ul:hover, a:hover, li:hover{
-  /*color: #b57cff;*/
-  color: #fcb244;
+ul.hearthList a:hover{
+  color: #ffc063;
 }
 
 ul.hearthList li{
@@ -73,7 +72,9 @@ pre{
   overflow: hidden;
   width: 120px;
   position: fixed;
-  border-right-style: ridge;
+  border-right-style: outset;
+  border-right-width: thin;
+  border-right-color: #bcbcbc;
 
 }
 
@@ -110,17 +111,31 @@ img{
   width: auto;
   height: auto;
   display: inline-block;
-  padding-top: 3px;
+  padding-top: 1px;
   margin-left: 5px;
-  /*border-style: solid;
-  border-width: thin;*/
+  vertical-align: top;
+}
+
+footer a:link{
+  font-family: SebastianGothicNBP;
+  font-size: 12px;
+  color: #e5efff;
+}
+
+footer a:visited{
+  color: #353535;
+}
+
+.info{
+  display: inline-block;
 }
 
 .badgeBorder{
-  border-style: solid;
+  border-style: inset;
   border-width: thin;
-  width: 180px;
-
+  border-color: #000000;
+  width: 240px;
+  height: 15.5px;
 }
 
 .topM{
